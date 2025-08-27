@@ -1,0 +1,27 @@
+PMusic
+
+Configurando o GIT:
+git config --global user.name nicoly-athayde
+git config --global user.email nicolyathayde4@gmail.com
+
+
+Criar um projeto React Native com Expo:
+npx create-expo-app@latest PMusic --template blank
+
+cd PMusic
+
+Executar o projeto:
+npx expo start --localhost --android
+
+npx expo install react-dom react-native-web @expo/metro-runtime
+npx expo install @react-native-community/slider
+npx expo install expo-av
+
+cd PMusic
+npm i
+
+Pacote expo router
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+Rodar do 0
+npx expo start --clear
